@@ -6,7 +6,9 @@ import {
   Search,
   Form,
   Button,
+  Image,
 } from "./components/styled/index";
+import jesterLogo from "./images/jester.svg";
 
 function App() {
   const [search, setSearch] = useState("");
@@ -17,6 +19,7 @@ function App() {
     <div>
       <Wrapper>
         <Row>
+          <Image src={jesterLogo} />
           <Header>
             <h1>Jokes App</h1>
           </Header>
