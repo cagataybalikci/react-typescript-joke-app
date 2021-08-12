@@ -5,5 +5,19 @@ import Image from "./Image";
 import Form from "./Form";
 import Search from "./Search";
 import Button from "./Button";
+import { CardWrapper, CardTop, CardBottom, Setup, Delivery } from "./Card";
 
-export { Wrapper, Row, Header, Form, Image, Search, Button };
+export {
+  Wrapper,
+  Row,
+  Header,
+  Form,
+  Image,
+  Search,
+  Button,
+  CardWrapper,
+  CardTop,
+  CardBottom,
+  Setup,
+  Delivery,
+};
