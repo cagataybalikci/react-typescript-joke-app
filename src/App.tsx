@@ -3,12 +3,10 @@ import {
   Header,
   Wrapper,
   Row,
-  Image,
   Search,
   Form,
   Button,
 } from "./components/styled/index";
-import jokerLogo from "./images/jokes-clown.svg";
 
 function App() {
   const [search, setSearch] = useState("");
@@ -19,7 +17,6 @@ function App() {
     <div>
       <Wrapper>
         <Row>
-          <Image src={jokerLogo} alt="joker-image" />
           <Header>
             <h1>Jokes App</h1>
           </Header>
